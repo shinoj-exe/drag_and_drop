@@ -24,11 +24,7 @@
     margin : 20px; 
     border : 2px dashed #fff;
 }
-/* #right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 .right_side{
     position: relative;
 }
@@ -43,7 +39,6 @@
     display: none;
 }
 .list{
-    /* touch-action: none; */
     background : #99b928; 
     height : 60px; 
     margin : 30px; 
