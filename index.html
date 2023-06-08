@@ -8,9 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div></div>
-        <div></div>
+    <div class="container">
+        <div class="button-wrapper">
+            <button id="reset"><img src="reset.png" alt=""> Reset</button>
+        </div>
+        <div class="content-wrapper">
+            <div id="left">
+                <div class="list" draggable="true">
+                    <img src="drag.png" alt="DraggableIcon">
+                    Item 1
+                </div>
+                <div class="list" draggable="true">
+                    <img src="drag.png" alt="DraggableIcon">
+                    Item 2
+                </div>
+                <div class="list" draggable="true">
+                    <img src="drag.png" alt="DraggableIcon">
+                    Item 3
+                </div>
+                <div class="list" draggable="true">
+                    <img src="drag.png" alt="DraggableIcon">
+                    Item 4
+                </div>
+                <div class="list" draggable="true">
+                    <img src="drag.png" alt="DraggableIcon">
+                    Item 4
+                </div>
+            </div>
+            <div id="right" class="right_side ">
+                <img class="img_placeholder" src="drop.png" alt="">
+            </div>
+        </div>
+        <div class="alert success success-alert" id="success">
+            <h3>Item dropped successfully!</h3>
+          </div>
     </div>
 <script src="script.js"></script>
 </body>
